@@ -1,0 +1,70 @@
+  451  cd Server
+  452  mkdir Docker
+  453  ls
+  454  cd ..
+  455  cd ..
+  456  ls
+  457  cd Frontend
+  458  mkdir CSS
+  459  cd CSS
+  460  touch style.css
+  461  ls
+  462  cd ..
+  463  cd ..
+  464  cd Frontend
+  465  mkdir HTML JavaScript
+  466  ls
+  467  cd HTML
+  468  touch footer.html header.html index.html
+  469  ls
+  470  cd ..
+  471  cd JavaScript
+  472  touch script.js
+  473  cd ..
+  474  cd ..
+  475  cd RESTfulAPI
+  476  touch api.js
+  477  ls
+  478  cd Frontend
+  479  cd ..
+  480  cd Frontend
+  481  cd HTML
+  482  cd ..
+  483  zip HTML
+  484  cd HTML
+  485  zip footer.html header.html index.htmp
+  486  zip footer.html header.html index.html
+  487  cd ..
+  488  zip HTML
+  489  zip AwesomeProduct/Frontend/HTML
+  490  cd ~
+  491  cd Git
+  492  ls
+  493  cd cli-exercise
+  494  ls
+  495  cd AwesomeProduct
+  496  cd Frontend
+  497  zip HTML.zip HTML/
+  498  cd HTML
+  499  rm header.html footer.html
+  500  cd ..
+  501  mv HTML.zip AwesomeProduct/
+  502  mv HTML.zip AwesomeProduct
+  503  cd HTML
+  504  touch header.html footer.html
+  505  ls
+  506  zip HTML.zip HTML/
+  507  cd Frontend
+  508  cd ..
+  509  zip HTML.zip HTML/
+  510  mv AwesomeProduct/Frontend/HTML.zip  AwesomeProduct/HTML.zip
+  511  mv ~AwesomeProduct/Frontend/HTML.zip ~AwesomeProduct/HTML.zip
+  512  mv AwesomeProduct/Frontend/HTML.zip AwesomeProduct/
+  513  mv ~vira.ivanova/Git/cli-exercise/AwesomeProduct/Frontend/HTML.zip ~vira.ivanova/Git/cli-exercise/AwesomeProduct
+  514  cd ..
+  515  ls
+  516  rm Assets
+  517  rmdir Assets
+  518  cp ~vira.ivanova/Git/cli-exercise/AwesomeProduct/Frontend/Javascript/script.js ~vira.ivanova/Git/cli-exercise/AwesomeProduct/Backend/Scripts/NodeJS
+  519  echo "Mission Completed"
+  520  history 70 >> history.txt
